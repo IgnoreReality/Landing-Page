@@ -127,3 +127,28 @@ button {
     width:auto;
     max-width: 150px;
 }
+
+.quote-container {
+    background-color:#e5e7eb;
+    min-height: 250px;
+    max-height: 300px;
+}
+
+.quote {
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+}
+
+.quote p1{
+    padding-top: 30px;
+}
+
+.quote p2{
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
