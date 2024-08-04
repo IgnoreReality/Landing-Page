@@ -8,8 +8,7 @@ body {
     font-family: "roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #000000;  /* change*/
-    background: rgb(255, 255, 255); /* change*/
+
 }
 
 ul {
@@ -52,4 +51,79 @@ ul {
 
 .navbar ul li {
     margin-left: 20px;
+}
+
+.image img {
+    width:370px;
+    max-height: 300px;
+    height:auto;
+    width:auto;
+    margin-left: 5px;
+}
+
+.hero {
+    background-color:#1f2937;
+    color: #fff;
+    min-height: 400px;
+  }
+
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 12px;
+    font-size: 12px;
+    padding: 8px 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.container .text {
+    margin-right: 5px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 1;
+    margin: 20px 10px;
+}
+
+.box p {
+    text-align: center;
+}
+
+.inf {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inf h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.boxes img {
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+    height:auto;
+    width:auto;
+    max-width: 150px;
 }
